@@ -1,0 +1,52 @@
+# =============================================================================
+# Git Ignore - Healthy Artery (Heart Disease Prediction System)
+# =============================================================================
+
+# Ignore the project files manifest requested by the user
+PROJECT_FILES.md
+
+# Streak tracker state
+.streak_state.json
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDE and Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build and Distribution artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Local logs
+*.log
+
